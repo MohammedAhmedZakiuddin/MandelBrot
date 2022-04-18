@@ -1,1 +1,1 @@
-# Mandel_Brot
+# Mandel_Brot (Fractal) 

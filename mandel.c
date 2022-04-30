@@ -1,8 +1,3 @@
-/*
-    MOHAMMED AHMED ZAKIUDDIN
-    1001675091
-*/
-
 #include "bitmap.h"
 
 #include <getopt.h>

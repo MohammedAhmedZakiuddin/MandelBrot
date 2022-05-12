@@ -52,4 +52,4 @@ Modify mandel.c to use an arbitrary number of threads to compute the image. <br 
 Each thread should compute a completely separate band of the image. <br />
 For example, if you specify three threads and the image is 500 pixels high, then thread 0 should work on lines 0-165, thread 1 should work on lines 166-331, and thread 2 should work on lines 332-499. <br /> 
 Add a new command line argument -n to allow the user to specify the number of threads. <br />
-If -n is not given, assume a default of one thread <br />.
+If -n is not given, assume a default of one thread. <br />

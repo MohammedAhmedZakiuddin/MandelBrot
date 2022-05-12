@@ -7,6 +7,11 @@ You can zoom into any part and find swirls, spirals, snowflakes, and other fun s
 
 Instructions: (To run the code)
 
+gcc mandel.c <br />
+./a.out <br />
+
+The below instructions to generate images accordingy.
+
 * ./mandel -x -0.5 -y 0 -s 2 -o mandel1.bmp
 * ./mandel -x -0.5 -y -0.5 -s 1 -o mandel2.bmp
 * ./mandel -x -0.5 -y -0.5 -s 0.005 -o mandel3.bmp

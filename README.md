@@ -33,7 +33,7 @@ If we increase max,then we can see much more detail in the set, but it may take 
 Generally speaking, you need to turn the max value higher as you zoom in. <br />
 For example, here is the same area in the set computed with four different values of max: <br />
 
-![image](https://user-images.githubusercontent.com/60457052/168406536-f92f8445-e8f3-4a8c-b640-b031bb0e09f5.png)
+![image](https://user-images.githubusercontent.com/60457052/168406549-f4b96859-7ca1-4f05-a3f0-f889a8421367.png)
 
 * ./mandel -x 0.286932 -y 0.014287 -s .0005 -m 50 -o mandel1.bmp
 * ./mandel -x 0.286932 -y 0.014287 -s .0005 -m 100 -o mandel2.bmp

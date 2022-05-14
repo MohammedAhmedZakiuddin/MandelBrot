@@ -10,6 +10,8 @@ Instructions: (To run the code)
 gcc mandel.c <br />
 ./a.out <br />
 
+![image](https://user-images.githubusercontent.com/60457052/168406523-44f40cb8-d572-451f-835f-f700474cc2a6.png)
+
 The below instructions to generate images accordingy.
 
 * ./mandel -x -0.5 -y 0 -s 2 -o mandel1.bmp
@@ -30,6 +32,8 @@ The max value controls the amount of work done by the algorithm. <br />
 If we increase max,then we can see much more detail in the set, but it may take much longer to compute. <br />
 Generally speaking, you need to turn the max value higher as you zoom in. <br />
 For example, here is the same area in the set computed with four different values of max: <br />
+
+![image](https://user-images.githubusercontent.com/60457052/168406536-f92f8445-e8f3-4a8c-b640-b031bb0e09f5.png)
 
 * ./mandel -x 0.286932 -y 0.014287 -s .0005 -m 50 -o mandel1.bmp
 * ./mandel -x 0.286932 -y 0.014287 -s .0005 -m 100 -o mandel2.bmp
